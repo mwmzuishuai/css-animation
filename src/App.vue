@@ -4,7 +4,7 @@
   </div>
 </template>
 <script setup>
-import Test from './views/加载1.vue'
+import Test from './views/涟漪效果.vue'
 </script>
 <style lang="scss">
 body{
