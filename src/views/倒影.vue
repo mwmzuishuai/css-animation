@@ -1,6 +1,6 @@
 <template>
     <div class="bigbox">
-        <div class="but"></div>
+        <div class="but">按钮</div>
     </div>
 </template>
 <script setup>
@@ -18,6 +18,11 @@
         border-radius: 10px;
         position: relative;overflow: hidden;
         box-shadow: 0 0 20px #00a8ff;
+        color: #fff;
+        z-index: 10;
+        text-align: center;
+        font-size: 50px;
+        line-height: 200px;
 
     }
     .but::before{
@@ -30,6 +35,8 @@
         left: 50%;
         animation: zhuan 1s linear infinite;
         transform-origin: top left;
+        z-index: -2;
+
     }
     .but::after{
         content: '';
@@ -41,6 +48,7 @@
         left: var(--w);
         background: black;
         border-radius: 10px;
+        z-index: -1;
     }
     .but:hover{
         transform: translateY(-20px);
