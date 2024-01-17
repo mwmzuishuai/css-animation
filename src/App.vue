@@ -4,7 +4,7 @@
   </div>
 </template>
 <script setup>
-import Test from './views/倒影.vue'
+import Test from './views/文字分割.vue'
 </script>
 <style lang="scss">
 body{
