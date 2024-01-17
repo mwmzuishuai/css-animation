@@ -17,6 +17,8 @@
         // border: 1px solid green;
         border-radius: 10px;
         position: relative;overflow: hidden;
+        box-shadow: 0 0 20px #00a8ff;
+
     }
     .but::before{
         content: "";
@@ -41,7 +43,6 @@
         border-radius: 10px;
     }
     .but:hover{
-        box-shadow: 0 0 20px #00a8ff;
         transform: translateY(-20px);
         -webkit-box-reflect:below 20px linear-gradient(transparent, rgba(0, 0, 0, 1)) ;
     }
