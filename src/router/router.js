@@ -55,5 +55,9 @@ const routes = [
         path:'/youling',
         component:import('../views/幽灵特效.vue')
     },
+    {
+        path:'/faguangtexiao',
+        component:import('../views/发光特效.vue')
+    }
 ]
 export default routes

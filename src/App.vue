@@ -15,7 +15,7 @@
       <a-tag color="green"><router-link to="/wenzifenge">文字分割</router-link></a-tag>
       <a-tag color="cyan"><router-link to="/xingxing">星星闪动</router-link></a-tag>
       <a-tag color="blue"><router-link to="/youling">幽灵特效</router-link></a-tag>
-      <a-tag color="purple"><router-link to="/shanyao">闪耀弹幕</router-link></a-tag>
+      <a-tag color="purple"><router-link to="/faguangtexiao">发光特效</router-link></a-tag>
     </div>
     <router-view></router-view>
   </div>
