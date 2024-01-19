@@ -58,6 +58,10 @@ const routes = [
     {
         path:'/faguangtexiao',
         component:import('../views/发光特效.vue')
+    },
+    {
+        path:'/donghuatexiao',
+        component:import('../views/css动画特效.vue')
     }
 ]
 export default routes

@@ -16,6 +16,7 @@
       <a-tag color="cyan"><router-link to="/xingxing">星星闪动</router-link></a-tag>
       <a-tag color="blue"><router-link to="/youling">幽灵特效</router-link></a-tag>
       <a-tag color="purple"><router-link to="/faguangtexiao">发光特效</router-link></a-tag>
+      <a-tag color="purple"><router-link to="/donghuatexiao">css</router-link></a-tag>
     </div>
     <router-view></router-view>
   </div>
